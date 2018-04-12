@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.site-cover{
+
+    color:red;
+    /* Putting a gradient over the top of the image to make it darker*/
+    background-image:linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.7)), url('./assets/images/lex-sirikiat-398937-unsplash.jpg');
+    height:100vh;
+    /* 100vh means 100% of view height*/
+
+    /*This will use entire image and center it*/
+    background-size:cover; 
+    background-position: center;
+    /* remember this. It's cool. */ 
+    background-attachment:fixed;
+}
